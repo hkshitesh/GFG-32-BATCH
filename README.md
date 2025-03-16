@@ -14,3 +14,6 @@ Downlaod JDK 17:  https://download.oracle.com/java/17/archive/jdk-17.0.12_window
 Download Jenkins: https://www.jenkins.io/download/thank-you-downloading-windows-installer-stable
 
 
+## Maven Project Repo Link
+
+https://github.com/hkshitesh/GFG-32-BATCH-MAVEN
