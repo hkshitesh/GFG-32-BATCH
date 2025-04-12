@@ -32,3 +32,9 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#ge
 Windows OS:
 
 https://awscli.amazonaws.com/AWSCLIV2.msi
+
+## Kubectl Command to Connect to AWS EKS Cluster
+
+aws eks --region ap-south-1 describe-cluster --name hiteshCluster --query cluster.status
+
+aws eks --region ap-south-1 update-kubeconfig --name hiteshCluster
