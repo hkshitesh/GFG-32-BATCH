@@ -18,8 +18,6 @@ Download Jenkins: https://www.jenkins.io/download/thank-you-downloading-windows-
 
 https://github.com/hkshitesh/GFG-32-BATCH-MAVEN
 
-## AWS CLI Downlaod and Install
-https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions
 
 ## Jenkins Pipeline Plugin
 
@@ -27,3 +25,10 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#ge
 2. Pipeline: Stage View
 3. Pipeline: Build Steps
 4. Pipeline: Basic Steps
+
+## AWS CLI Downlaod and Install
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions
+
+Windows OS:
+
+https://awscli.amazonaws.com/AWSCLIV2.msi
