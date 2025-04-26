@@ -34,3 +34,6 @@ https://awscli.amazonaws.com/AWSCLIV2.msi
 aws eks --region ap-south-1 describe-cluster --name hiteshCluster --query cluster.status
 
 aws eks --region ap-south-1 update-kubeconfig --name hiteshCluster
+
+![image](https://github.com/user-attachments/assets/dba905cb-20d0-4881-8df1-052a270cb65a)
+
