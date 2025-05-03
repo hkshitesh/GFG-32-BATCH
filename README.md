@@ -37,3 +37,15 @@ aws eks --region ap-south-1 update-kubeconfig --name hiteshCluster
 
 ![image](https://github.com/user-attachments/assets/dba905cb-20d0-4881-8df1-052a270cb65a)
 
+## Ansible Installation Commands
+
+sudo su
+
+sudo yum update -y
+
+sudo amazon-linux-extras enable ansible2
+
+sudo yum install ansible -y
+
+ansible --version
+
