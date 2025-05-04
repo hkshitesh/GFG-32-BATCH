@@ -49,3 +49,8 @@ sudo yum install ansible -y
 
 ansible --version
 
+## Prometheus Grafana Diagram
+
+![image](https://github.com/user-attachments/assets/57eafa85-6d98-4817-9430-02dacb96ad6a)
+
+
