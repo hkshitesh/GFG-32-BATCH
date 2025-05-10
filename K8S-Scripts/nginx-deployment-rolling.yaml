@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment-rolling
+spec:
+  replicas: 10
+  minReadySeconds: 10
+  selector:
+    matchLabels:
+      app: nginx
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 5
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: my-container
+        image: hkshitesh/kubedemo:2.0

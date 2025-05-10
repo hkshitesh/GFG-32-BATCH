@@ -1,0 +1,11 @@
+apiVersion: v1
+data:
+  password: abcd1234
+  uname: Hitesh
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2025-04-06T12:38:35Z"
+  name: example-configmap
+  namespace: default
+  resourceVersion: "93935"
+  uid: b9e64e09-34c7-4819-b414-a3d425c96eb3

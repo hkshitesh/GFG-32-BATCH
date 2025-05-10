@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-deployment
+  labels:
+    app: lblweb
+spec:
+  replicas: 10
+  selector:
+    matchLabels:
+      app: lblweb
+  template:
+    metadata:
+      labels:
+        app: lblweb
+    spec:
+      containers:
+      - name: my-web-container
+        image: hkshitesh/kubedemo:2.0
