@@ -53,4 +53,11 @@ ansible --version
 
 ![image](https://github.com/user-attachments/assets/57eafa85-6d98-4817-9430-02dacb96ad6a)
 
+## AWS EKS Commands
+
+aws eks --region ap-south-1 describe-cluster --name gfgCluster --query cluster.status
+
+aws eks --region ap-south-1 update-kubeconfig --name gfgCluster
+
+
 
